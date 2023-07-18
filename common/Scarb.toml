@@ -1,0 +1,10 @@
+[package]
+name = "common"
+version = "0.1.0"
+cairo-version = "2.0.1"
+description = "Common logic shared by strategies."
+
+[dependencies]
+starknet = "2.0.1"
+types252 = { version = "0.1.0", git = "https://github.com/sphinx-dex/types252" }
+# sphinx = "0.1.0"

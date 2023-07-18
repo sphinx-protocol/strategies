@@ -1,0 +1,11 @@
+[package]
+name = "sphinx-strategies"
+version = "0.1.0"
+cairo-version = "2.0.1"
+
+[dependencies]
+starknet = "2.0.1"
+common = { path = "common" }
+balanced = { path = "strategies/balanced" }
+replicating = { path = "strategies/replicating" }
+stable = { path = "strategies/stable" }
