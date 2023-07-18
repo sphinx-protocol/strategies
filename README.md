@@ -2,11 +2,11 @@
 
 > :warning: The strategies in this repository are currently under development and have not been tested or audited. Use at your own risk.
 
-**Monorepo for liquidity management strategies on [Sphinx](https://github.com/sphinx-dex)**.
+Monorepo for automated market making strategies on [Sphinx](https://github.com/sphinx-dex).
 
-Sphinx is an AMM protocol on Starknet for smarter and more democratic liquidity provision, currently in development.
+Sphinx is an AMM protocol on Starknet that ships with an integrated smart contract market maker to offer deep liquidity and yield for LPs.
 
-This repository gathers a reusable library of liquidity management strategies, allowing projects to easily bootstrap liquidity for their tokens.
+This repository gathers a reusable library of automated market making strategies, allowing projects to launch and bootstrap liquidity for their tokens in minutes rather than months.
 
 ## Strategies
 
