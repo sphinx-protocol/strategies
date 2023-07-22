@@ -2,7 +2,7 @@
 
 > :warning: The strategies in this repository are currently under development and have not been tested or audited. Use at your own risk.
 
-Monorepo for automated market making strategies on [Sphinx](https://github.com/sphinx-dex).
+Monorepo for automated market making strategies on [Sphinx](https://github.com/sphinx-protocol).
 
 Sphinx is an AMM protocol on Starknet that ships with an integrated smart contract market maker to offer deep liquidity and yield for LPs.
 
@@ -10,11 +10,11 @@ This repository gathers a reusable library of automated market making strategies
 
 ## Strategies
 
-| Package                       | Description                                                                                                                                                                                                                                                                                                |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [balanced](./balanced)        | Sets an asymmetrical bid and ask price in order to maintain an inventory of base and quote assets at some target ratio, ideal for addressing impermanent loss and managing inventory risk. Based on the influential [Avellaneda & Stoikov paper](https://math.nyu.edu/~avellane/HighFrequencyTrading.pdf). |
-| [replicating](./replicating/) | Replicates the bid and ask spread from a external exchange using an oracle price feed. Ideal for assets that already trade on liquid markets.                                                                                                                                                              |
-| [stable](./stable/)           | Provides liquidity at discrete bid and ask prices, or a range of prices tightly banded around the peg. Ideal for stablecoin pairs.                                                                                                                                                                         |
+| Package                                  | Description                                                                                                                                                                                                                                                                                                |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [balanced](./strategies/balanced)        | Sets an asymmetrical bid and ask price in order to maintain an inventory of base and quote assets at some target ratio, ideal for addressing impermanent loss and managing inventory risk. Based on the influential [Avellaneda & Stoikov paper](https://math.nyu.edu/~avellane/HighFrequencyTrading.pdf). |
+| [replicating](./strategies/replicating/) | Replicates the bid and ask spread from a external exchange using an oracle price feed. Ideal for assets that already trade on liquid markets.                                                                                                                                                              |
+| [stable](./strategies/stable/)           | Provides liquidity at discrete bid and ask prices, or a range of prices tightly banded around the peg. Ideal for stablecoin pairs.                                                                                                                                                                         |
 
 ## Setup
 
